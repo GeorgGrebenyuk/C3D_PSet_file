@@ -11,9 +11,16 @@ Symbol | About
 🟡 | User's variables;
 🟠 | Value from static collection (fix type);
 
+Structure of file represent at table below (without any user's data, only symbols above, const fiels names and *recommended data type* for each field):
 
-#Header |🟤|🟤|🟤|🟤|🟤|🟤|🟤
---|--|--|--|--|--|--|--
-\*META|VERSION|MINVERSION|🟤|🟤|🟤|🟤|🟤
-META|🟡|🟡|🟤|🟤|🟤|🟤|🟤
-\*GROUP|ID|NAME|APPLYTO|DESCRIPTION|🟤|🟤|🟤
+🟢 \# This is a Civil3D PropertySet parameters file |🟤|🟤|🟤|🟤|🟤|🟤|🟤
+:---|:---:|:---:|:---:|:---:|:---:|:---:|:---:
+🟢 \*META|🟢 VERSION |🟢 MINVERSION|🟤|🟤|🟤|🟤|🟤
+🟢 META|🟡 *integer*|🟡 *integer*|🟤|🟤|🟤|🟤|🟤
+🟢 \*GROUP|🟢 ID|🟢 NAME|🟢 APPLYTO|🟢 DESCRIPTION|🟤|🟤|🟤
+🟢 GROUP|🟡 *integer*|🟡 *string without symbols*|🟠 *string without tabs*|🟡 *any strings*|🟤|🟤|🟤
+...|...|...|...|...|...|...|...|
+🟢 \*PARAM|🟢 GUID|🟢 NAME|🟢 DATATYPE|🟢 GROUP|🟢 VISIABLE|🟢 DESCRIPTION|🟢 ORDER
+🟢 PARAM|🟡 *guid*|🟡 *string without tabs*|🟠 *string without tabs*|🟡 *integer*|🟡 *boolean*|🟡 *any strings*|🟡 *integer*
+...|...|...|...|...|...|...|...|
+...|...|...|...|...|...|...|...|
