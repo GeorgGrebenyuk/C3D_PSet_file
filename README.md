@@ -13,7 +13,7 @@ Symbol | About
 
 Structure of file represent at table below (without any user's data, only symbols above, const fiels names and *recommended data type* for each field):
 
-🟢 \# This is a Civil3D PropertySet parameters file |🟤|🟤|🟤|🟤|🟤|🟤|🟤
+🟢 \#C3D PSet file|🟤|🟤|🟤|🟤|🟤|🟤|🟤
 :---|:---:|:---:|:---:|:---:|:---:|:---:|:---:
 🟢 \*META|🟢 VERSION |🟢 MINVERSION|🟤|🟤|🟤|🟤|🟤
 🟢 META|🟡 *integer*|🟡 *integer*|🟤|🟤|🟤|🟤|🟤
